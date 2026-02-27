@@ -1,3 +1,6 @@
+#Reinicio good
+function coliseo:core/reset_scoreboards
+
 #Crear "scoreboards"
 #1.- Marcha Ligera
 scoreboard objectives add runa dummy
@@ -36,8 +39,17 @@ scoreboard players add @a kit_timer6 0
 scoreboard objectives add game_state dummy
 scoreboard players set #game game_state 2
 
-
-
 #Debug runas
 scoreboard players add @a runa_timer1 0
 scoreboard players add @a runa_timer4 0
+
+#Crear variables para la zona chanchito
+scoreboard objectives add players_count dummy
+scoreboard objectives add player_points dummy
+scoreboard objectives add chanchito_conquista dummy
+scoreboard objectives add player_in dummy
+scoreboard objectives add estado_chanchito dummy
+scoreboard objectives add zona1 dummy
+scoreboard objectives add zona2 dummy
+scoreboard objectives add zona3 dummy
+scoreboard objectives add control_points dummy

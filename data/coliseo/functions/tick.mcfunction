@@ -36,3 +36,7 @@ function coliseo:kits/bloodthirsty_verify
 
 execute as @a[scores={kit=6,kit_timer6=1..}] run scoreboard players remove @s kit_timer6 1
 
+#Funcion Chanchito
+execute as @e[tag=zona1] run function coliseo:zona_functions/real_chanchito
+execute as @e[tag=zona2] run function coliseo:zona_functions/real_chanchito
+execute as @e[tag=zona3] run function coliseo:zona_functions/real_chanchito

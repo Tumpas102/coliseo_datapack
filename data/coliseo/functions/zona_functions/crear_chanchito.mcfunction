@@ -1,0 +1,1 @@
+summon minecraft:pig ~ ~ ~ {NoAI:1b,Invulnerable:1b,Silent:1b,Tags:["zona"]}
