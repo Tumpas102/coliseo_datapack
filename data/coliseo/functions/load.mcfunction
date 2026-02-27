@@ -1,9 +1,8 @@
-msg @a "Hola mundo"
 #Crear "scoreboards"
 #1.- Marcha Ligera
 scoreboard objectives add runa dummy
 scoreboard objectives add runa_timer1 dummy
-msg @a "Six Seven bro"
+
 #4.- Electrocutar
 scoreboard objectives add runa_timer4 dummy
 #5.- Deuda Letal
