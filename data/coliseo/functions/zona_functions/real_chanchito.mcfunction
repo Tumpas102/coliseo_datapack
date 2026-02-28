@@ -9,15 +9,17 @@ execute as @s[scores={players_count=1,estado_chanchito = 0,}] run scoreboard pla
 execute as @s[scores={players_count=0,estado_chanchito = 0,chanchito_conquista=1..}] run scoreboard players remove @s chanchito_conquista 1
 execute as @s[scores={players_count=2..,estado_chanchito = 0,chanchito_conquista=1..}] run scoreboard players remove @s chanchito_conquista 1
 
-execute as @s[tag=zona1,scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200}] run scoreboard players set @p zona1 1
-execute as @s[tag=zona2,scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200}] run scoreboard players set @p zona2 1
-execute as @s[tag=zona3,scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200}] run scoreboard players set @p zona3 1
-execute as @s[scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200}] run scoreboard players set @s estado_chanchito 1
+execute as @s[tag=zona1,scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200..}] run scoreboard players set @p zona1 1
+execute as @s[tag=zona2,scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200..}] run scoreboard players set @p zona2 1
+execute as @s[tag=zona3,scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200..}] run scoreboard players set @p zona3 1
+execute as @s[scores={players_count=1,estado_chanchito = 0,chanchito_conquista= 200..}] run scoreboard players set @s estado_chanchito 1
 #Para desconquistar chanchito
-execute as @s[scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 1..},] at @s at @a[distance=0..5,scores={zona1 = 0}] run scoreboard players remove @s chanchito_conquista 2
+execute as @s[tag=zona1,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 1..},] at @s at @a[distance=0..5,scores={zona1 = 0}] run scoreboard players remove @s chanchito_conquista 2
+execute as @s[tag=zona2,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 1..},] at @s at @a[distance=0..5,scores={zona2 = 0}] run scoreboard players remove @s chanchito_conquista 2
+execute as @s[tag=zona3,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 1..},] at @s at @a[distance=0..5,scores={zona3 = 0}] run scoreboard players remove @s chanchito_conquista 2
 execute as @s[tag =zona1,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 0}] at @s at @a[distance=0..5,scores={zona1 = 0}] run scoreboard players set @a[scores={zona1=1}] zona1 0
-execute as @s[tag =zona2,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 0}] at @s at @a[distance=0..5,scores={zona1 = 0}] run scoreboard players set @a[scores={zona1=1}] zona2 0
-execute as @s[tag =zona3,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 0}] at @s at @a[distance=0..5,scores={zona1 = 0}] run scoreboard players set @a[scores={zona1=1}] zona3 0
+execute as @s[tag =zona2,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 0}] at @s at @a[distance=0..5,scores={zona2 = 0}] run scoreboard players set @a[scores={zona2=1}] zona2 0
+execute as @s[tag =zona3,scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 0}] at @s at @a[distance=0..5,scores={zona3 = 0}] run scoreboard players set @a[scores={zona3=1}] zona3 0
 execute as @s[scores={players_count=0..,estado_chanchito = 1,chanchito_conquista = 0}] at @s at @a[distance=0..5,scores={zona1 = 0}] run scoreboard players set @s estado_chanchito 0
 
 #Funcion para los puntos
