@@ -23,7 +23,7 @@ scoreboard objectives add runa_dilay8 dummy
 scoreboard objectives add runa_timer10 dummy
 
 #Kits
-scoreboard objectives add kit dummy
+scoreboard objectives add kits dummy
 
 #BloodThirsy
 scoreboard objectives add kit_timer6 dummy
