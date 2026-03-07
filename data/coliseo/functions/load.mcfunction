@@ -53,3 +53,6 @@ scoreboard objectives add zona1 dummy
 scoreboard objectives add zona2 dummy
 scoreboard objectives add zona3 dummy
 scoreboard objectives add control_points dummy
+scoreboard objectives add zona_diley dummy
+scoreboard objectives add zona_activa dummy
+scoreboard objectives add is_owner dummy

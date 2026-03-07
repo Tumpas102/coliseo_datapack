@@ -6,5 +6,6 @@ execute as @e[type=cow,tag=zona] at @s rotated as @s run particle minecraft:flam
 execute as @e[tag=zona] at @s[scores={estado_chanchito = 0,players_count=0}] run setblock ~ ~-1 ~ iron_block
 execute as @e[tag=zona] at @s[scores={players_count=1..}] run setblock ~ ~-1 ~ redstone_block
 execute as @e[tag=zona] at @s[scores={estado_chanchito = 1,players_count=0}] run setblock ~ ~-1 ~ diamond_block
-execute as @e[tag=zona] at @s[scores={chanchito_conquista = 199}] run summon minecraft:firework_rocket ~ ~ ~
+execute as @e[tag=zona] at @s[scores={chanchito_conquista = 199,estado_chanchito = 0}] run summon minecraft:firework_rocket ~ ~ ~
+execute as @e[tag=zona] at @s[scores={zona_diley=1,estado_chanchito = 1}] run summon minecraft:firework_rocket ~ ~ ~
 execute as @e[type=cow,tag=zona,scores={players_count=1..}] run execute at @s run tp @s ~ ~ ~ ~10 ~
