@@ -17,3 +17,5 @@ scoreboard players set @a runa_timer10 100
 scoreboard players set @a runeState 0
 scoreboard players set @a kit_timer6 0
 scoreboard players set @a hit_count 0
+#Arreglar bloodthirsty
+execute as @a run attribute @s minecraft:generic.attack_speed base set 4
