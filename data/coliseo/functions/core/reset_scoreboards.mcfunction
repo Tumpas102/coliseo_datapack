@@ -12,6 +12,8 @@ scoreboard players set @a control_points 0
 scoreboard players set @a runa_timer1 100
 scoreboard players set @a runa_timer4 100
 scoreboard players set @a runa_timer5 100
+scoreboard players set @a is_deuda 0
+scoreboard players set @a deuda_timer 0
 scoreboard players set @a runa_timer8 100
 scoreboard players set @a runa_timer10 100
 scoreboard players set @a runeState 0

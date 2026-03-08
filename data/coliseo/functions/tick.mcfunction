@@ -8,8 +8,8 @@ execute as @a[scores={runa=10}] run scoreboard players remove @s runa_timer10 1
 execute as @a[scores={runa=1,runa_timer1=0}] run title @s actionbar {"text": "Runa Lista","color": "yellow"}
 execute as @a[scores={runa=4,runa_timer4=0}] run title @s actionbar {"text": "Runa Lista","color": "red"}
 execute as @a[scores={runa=5,runa_timer5=0}] run title @s actionbar {"text": "Runa Lista","color": "red"}
-execute as @a[scores={runa=10,runa_timer10=0}] run title @s actionbar {"text": "Runa Lista","color": "green"}
 execute as @a[scores={runa=8,runa_timer8=0}] run title @s actionbar {"text": "Runa Lista","color": "blue"}
+execute as @a[scores={runa=10,runa_timer10=0}] run title @s actionbar {"text": "Runa Lista","color": "green"}
 # Activar runa si:
 # tiene runa 1
 # ha hecho daño
